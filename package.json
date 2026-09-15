@@ -1,0 +1,28 @@
+{
+  "name": "minecraft-bot",
+  "version": "2.0.0",
+  "description": "Advanced Mineflayer Minecraft bot with command system",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "bot",
+    "commands"
+  ],
+  "author": "blody1545",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.14.0",
+    "pathfinder": "^2.4.9",
+    "mineflayer-pvp": "^0.0.30",
+    "mineflayer-physics-utils": "^1.1.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
